@@ -41,6 +41,7 @@
     <string name="partner_font" translatable="false">sans-serif-bold</string>
 
     <bool name="use_gtv_setup_v2">true</bool>
+    <bool name="use_qs_gtv">true</bool>
 
     <!-- DO NOT TRANSLATE -->
     <string name="launcher_category" translatable="false">android.intent.category.LEANBACK_LAUNCHER</string>
