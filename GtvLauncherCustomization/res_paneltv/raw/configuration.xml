@@ -1,0 +1,58 @@
+<!-- More information is available in Home Screen Customization documentation.
+     https://androidpartner.devsite.corp.google.com/tv/build/gtv -->
+<configuration>
+
+    <country value="all">
+        <!-- Use your own TV app here instead -->
+        <basic-mode-live-tv-app-uri value="android-app://com.droidlogic.android.tv" />
+        <epg-app-deep-link url="content://android.media.tv/program" />
+
+        <basic-mode-blocked-apps>
+            <!-- At minimum, all the preinstalled streaming apps must be listed here
+                 unless there is an app button on the remote control unit.
+            -->
+            <partner-basic-mode-blocked-apps>
+                <app package_name="com.netflix.ninja" />
+            </partner-basic-mode-blocked-apps>
+
+            <google-basic-mode-blocked-apps>
+                <app package_name="com.google.android.apps.mediashell" />
+                <app package_name="com.google.android.katniss" />
+                <app package_name="com.google.android.music" />
+                <app package_name="com.google.android.play.games" />
+                <app package_name="com.google.android.videos" />
+                <!-- must block YouTube as well when there is no app button on the remote -->
+                <!--<app package_name="com.google.android.youtube.tv" />-->
+                <app package_name="com.google.android.youtube.tvmusic" />
+                <app package_name="com.google.android.youtube.tvunplugged" />
+            </google-basic-mode-blocked-apps>
+        </basic-mode-blocked-apps>
+
+        <notifications-allowed-apps>
+            <app package_name="com.google.android.falcontvservice" />
+            <app package_name="com.google.android.tv.dfuservice" />
+            <app package_name="com.google.android.tv.notificationsample" />
+        </notifications-allowed-apps>
+
+        <kids-profile-default-apps>
+            <app package_name="com.google.android.tv.inputplayer" />
+            <app package_name="com.droidlogic" />
+            <app package_name="com.droidlogic.tvinput" />
+            <app package_name="com.droidlogic.inputplayer.overlay" />
+        </kids-profile-default-apps>
+    </country>
+
+    <country value="US">
+        <partner-system-apps-basic-mode-order>
+            <app package_name="com.google.android.youtube.tv" />
+            <app package_name="com.droidlogic.android.tv" />
+        </partner-system-apps-basic-mode-order>
+    </country>
+
+    <country value="default">
+        <partner-system-apps-basic-mode-order>
+            <app package_name="com.google.android.youtube.tv" />
+            <app package_name="com.droidlogic.android.tv" />
+        </partner-system-apps-basic-mode-order>
+    </country>
+</configuration>

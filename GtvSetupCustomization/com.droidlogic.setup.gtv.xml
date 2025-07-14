@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2024 Google Inc. All Rights Reserved.
+  -->
+<permissions>
+    <privapp-permissions package="com.droidlogic.launcher.provider">
+      <permission name="android.permission.BLUETOOTH_PRIVILEGED" />
+    </privapp-permissions>
+</permissions>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="hook_title_font">48sp</dimen>
+  <dimen name="hook_description_font">24sp</dimen>
+  <dimen name="gtvm3_dialog_actions_spacing">28dp</dimen>
+  <dimen name="gtvm3_dialog_width">480dp</dimen>
+</resources>

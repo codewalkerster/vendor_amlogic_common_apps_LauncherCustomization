@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="partner_row_title">"Amlogic应用"</string>
+    <string name="apps_row_title">"应用"</string>
+    <string name="games_row_title">"游戏"</string>
+    <string name="inputs_row_title">"输入"</string>
+    <string name="settings_row_title">"设置"</string>
+
+    <string name="dlna">DLNA</string>
+    <string name="video_player">"本地播放器"</string>
+    <string name="update">"升级"</string>
+
+    <string name="welcome_message">欢迎</string>
+
+    <integer name="num_regions">4</integer>
+    <string name="custom_region_0">北美洲</string>
+    <string name="custom_region_1">欧洲</string>
+    <string name="custom_region_2">亚洲</string>
+    <string name="custom_region_3">其它</string>
+
+    <string-array name="custom_region_0" translatable="false">
+        <item>US</item>
+        <item>CA</item>
+        <item>MX</item>
+    </string-array>
+
+    <string-array name="custom_region_1" translatable="false">
+        <item>DE</item>
+        <item>FR</item>
+        <item>GB</item>
+    </string-array>
+
+    <string-array name="custom_region_2" translatable="false">
+        <item>CN</item>
+        <item>IN</item>
+        <item>JP</item>
+        <item>TW</item>
+    </string-array>
+
+    <string-array name="custom_region_3" translatable="false">
+        <item>ZZ</item>
+    </string-array>
+
+</resources>

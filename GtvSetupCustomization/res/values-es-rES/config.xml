@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcome_message">¡Hola!</string>
+    <string-array name="welcome_preferred_locales" translatable="false">
+        <item>en-US</item>
+        <item>en-CA</item>
+        <item>es-US</item>
+        <item>fr-CA</item>
+    </string-array>
+
+    <integer name="num_regions">1</integer>
+    <string name="custom_region_0">North America</string>
+
+    <string-array name="custom_region_0" translatable="false">
+        <item>US</item>
+        <item>CA</item>
+        <item>PR</item>
+        <item>ZZ</item>
+    </string-array>
+</resources>

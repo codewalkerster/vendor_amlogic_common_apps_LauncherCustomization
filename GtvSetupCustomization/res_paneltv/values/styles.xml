@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/Theme.Leanback">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="BlackTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="Widget.GtvMaterial3.DialogContainer" parent="">
+        <item name="android:padding">4dp</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:layout_width">@dimen/gtvm3_dialog_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.GtvMaterial3.DialogTitle" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Gtvm3.Sys.Typescale.HeadlineMedium</item>
+        <item name="android:textColor">#ecf3fe</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="Widget.GtvMaterial3.DialogBody" parent="">
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_marginBottom">46dp</item>
+    </style>
+    <style name="Widget.GtvMaterial3.DialogMessage" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Gtvm3.Sys.Typescale.BodyLarge</item>
+        <item name="android:textColor">#ecf3fe</item>
+    </style>
+    <style name="TextAppearance.Gtvm3.Sys.Typescale.BodyLarge" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="Widget.GtvMaterial3.ButtonText" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Gtvm3.Sys.Typescale.TitleMedium</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:duplicateParentState">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Widget.GtvMaterial3.Button" parent="@android:style/Widget.Button">
+        <item name="android:textAppearance">@style/TextAppearance.Gtvm3.Sys.Typescale.TitleMedium</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:stateListAnimator">@animator/scale_large</item>
+        <item name="android:paddingHorizontal">20dp</item>
+        <item name="android:lineHeight">20sp</item>
+
+    </style>
+
+    <style name="TextAppearance.Gtvm3.Sys.Typescale.TitleMedium" parent="">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+	    <style name="TextAppearance.Gtvm3.Sys.Typescale.HeadlineLarge" parent="">
+        <item name="android:textSize">32sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+    <style name="TextAppearance.Gtvm3.Sys.Typescale.HeadlineMedium" parent="">
+        <item name="android:textSize">28sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+    <style name="Base.TextAppearance.AppCompat" parent="@android:style/TextAppearance.Material">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body1" parent="@android:style/TextAppearance.Material.Body1">
+    </style>
+    <style name="Base.TextAppearance.AppCompat.Body2" parent="@android:style/TextAppearance.Material.Body2">
+    </style>
+</resources>

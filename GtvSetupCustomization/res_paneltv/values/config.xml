@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Whether to show the assistant hotword step during Setup.
+    This is only relevant if the device supports hotwording. -->
+<!--   <bool name="show_assistant_hotword">true</bool> -->
+
+    <!--whether to disable the bt remote pairing screen in setup-->
+    <bool name="disable_remote_pairing">true</bool>
+
+    <bool name="partner_show_live_tv_on_start_up">false</bool>
+
+    <bool name="disable_disconnected_inputs">true</bool>
+    <bool name="show_physical_tuners_separately">false</bool>
+    <!-- DO NOT TRANSLATE -->
+    <string name="partner_app_sorting_mode" translatable="false">recency</string>
+
+    <!--
+        DO NOT TRANSLATE
+        List showing default out of box ordering for the launcher.
+        The higher in this list a package appears, the higher it will be in the launcher.
+        Since the apps row and games row are separate, we can safely put them in the same array.
+        This same list will be used to determine the initial ordering of recommendations.
+        The Google default out of box ordering will supersede this ordering if there is a conflict.
+    -->
+
+    <!-- DO NOT TRANSLATE -->
+    <string-array name="home_screen_row_ordering" translatable="false">
+        <item>partner_row</item>
+        <item>games_row</item>
+        <item>apps_row</item>
+        <item>settings_row</item>
+    </string-array>
+
+  <!--  <item type="drawable" name="partner_row_icon">@drawable/ic_title_custom</item>
+    <item type="drawable" name="apps_row_icon">@drawable/ic_title_apps</item>
+    <item type="drawable" name="games_row_icon">@drawable/ic_title_games</item>
+    <item type="drawable" name="inputs_row_icon">@drawable/ic_title_custom</item>
+    <item type="drawable" name="settings_row_icon">@drawable/ic_title_settings</item>-->
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="partner_font" translatable="false">sans-serif-bold</string>
+
+    <bool name="use_gtv_setup_v2">true</bool>
+    <bool name="use_qs_gtv">true</bool>
+
+    <bool name="welcome_enable_revamped_locale_picker">true</bool>
+       <string name="welcome_message">Welcome</string>
+    <string-array name="welcome_preferred_locales" translatable="false">
+        <item>en-US</item>
+        <item>en-CA</item>
+        <item>es-US</item>
+        <item>fr-CA</item>
+    </string-array>
+
+    <integer name="num_regions">7</integer>
+    <string name="custom_region_0">Asia</string>
+    <string name="custom_region_1">Europe</string>
+    <string name="custom_region_2">Africa</string>
+    <string name="custom_region_3">Oceania</string>
+    <string name="custom_region_4">North America</string>
+    <string name="custom_region_5">South America</string>
+    <string name="custom_region_6">Other</string>
+    <string-array name="custom_region_0" translatable="false">
+        <item>DG</item>
+        <item>AF</item>
+        <item>AM</item>
+        <item>AZ</item>
+        <item>BH</item>
+        <item>BD</item>
+        <item>BT</item>
+        <item>IO</item>
+        <item>BN</item>
+        <item>KH</item>
+        <item>CN</item>
+        <item>CX</item>
+        <item>CC</item>
+        <item>CY</item>
+        <item>GE</item>
+        <item>HK</item>
+        <item>IN</item>
+        <item>ID</item>
+        <item>IR</item>
+        <item>IQ</item>
+        <item>IL</item>
+        <item>JP</item>
+        <item>JO</item>
+        <item>KZ</item>
+        <item>KP</item>
+        <item>KR</item>
+        <item>KW</item>
+        <item>KG</item>
+        <item>LA</item>
+        <item>LB</item>
+        <item>MO</item>
+        <item>MY</item>
+        <item>MN</item>
+        <item>MM</item>
+        <item>NP</item>
+        <item>OM</item>
+        <item>PK</item>
+        <item>PS</item>
+        <item>PH</item>
+        <item>QA</item>
+        <item>RU</item>
+        <item>SA</item>
+        <item>SG</item>
+        <item>LK</item>
+        <item>SY</item>
+        <item>TW</item>
+        <item>TJ</item>
+        <item>TH</item>
+        <item>TL</item>
+        <item>TR</item>
+        <item>TM</item>
+        <item>AE</item>
+        <item>UZ</item>
+        <item>VN</item>
+        <item>YE</item>
+    </string-array>
+    <string-array name="custom_region_1" translatable="false">
+        <item>XK</item>
+        <item>AL</item>
+        <item>AD</item>
+        <item>AM</item>
+        <item>AT</item>
+        <item>AZ</item>
+        <item>BY</item>
+        <item>BE</item>
+        <item>BA</item>
+        <item>BG</item>
+        <item>HR</item>
+        <item>CY</item>
+        <item>CZ</item>
+        <item>DK</item>
+        <item>EE</item>
+        <item>FO</item>
+        <item>FI</item>
+        <item>FR</item>
+        <item>GE</item>
+        <item>DE</item>
+        <item>GI</item>
+        <item>GR</item>
+        <item>GG</item>
+        <item>VA</item>
+        <item>HU</item>
+        <item>IS</item>
+        <item>IE</item>
+        <item>IM</item>
+        <item>IT</item>
+        <item>JE</item>
+        <item>KZ</item>
+        <item>LV</item>
+        <item>LI</item>
+        <item>LT</item>
+        <item>LU</item>
+        <item>MK</item>
+        <item>MT</item>
+        <item>MD</item>
+        <item>MC</item>
+        <item>ME</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>PL</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>RU</item>
+        <item>SM</item>
+        <item>RS</item>
+        <item>SK</item>
+        <item>SI</item>
+        <item>ES</item>
+        <item>SJ</item>
+        <item>SE</item>
+        <item>CH</item>
+        <item>TR</item>
+        <item>UA</item>
+        <item>GB</item>
+        <item>AX</item>
+    </string-array>
+    <string-array name="custom_region_2" translatable="false">
+        <item>EA</item>
+        <item>IC</item>
+        <item>DZ</item>
+        <item>AO</item>
+        <item>BJ</item>
+        <item>BW</item>
+        <item>BF</item>
+        <item>BI</item>
+        <item>CM</item>
+        <item>CV</item>
+        <item>CF</item>
+        <item>TD</item>
+        <item>KM</item>
+        <item>CD</item>
+        <item>CG</item>
+        <item>CI</item>
+        <item>DJ</item>
+        <item>EG</item>
+        <item>GQ</item>
+        <item>ER</item>
+        <item>ET</item>
+        <item>GA</item>
+        <item>GM</item>
+        <item>GH</item>
+        <item>GN</item>
+        <item>GW</item>
+        <item>KE</item>
+        <item>LS</item>
+        <item>LR</item>
+        <item>LY</item>
+        <item>MG</item>
+        <item>MW</item>
+        <item>ML</item>
+        <item>MR</item>
+        <item>MU</item>
+        <item>YT</item>
+        <item>MA</item>
+        <item>MZ</item>
+        <item>NA</item>
+        <item>NE</item>
+        <item>NG</item>
+        <item>RE</item>
+        <item>RW</item>
+        <item>SH</item>
+        <item>ST</item>
+        <item>SN</item>
+        <item>SC</item>
+        <item>SL</item>
+        <item>SO</item>
+        <item>ZA</item>
+        <item>SS</item>
+        <item>SD</item>
+        <item>SZ</item>
+        <item>TZ</item>
+        <item>TG</item>
+        <item>TN</item>
+        <item>UG</item>
+        <item>EH</item>
+        <item>ZM</item>
+        <item>ZW</item>
+    </string-array>
+    <string-array name="custom_region_3" translatable="false">
+        <item>AS</item>
+        <item>AU</item>
+        <item>CK</item>
+        <item>FJ</item>
+        <item>PF</item>
+        <item>GU</item>
+        <item>KI</item>
+        <item>MH</item>
+        <item>FM</item>
+        <item>NR</item>
+        <item>NC</item>
+        <item>NZ</item>
+        <item>NU</item>
+        <item>NF</item>
+        <item>MP</item>
+        <item>PW</item>
+        <item>PG</item>
+        <item>PN</item>
+        <item>WS</item>
+        <item>SB</item>
+        <item>TK</item>
+        <item>TO</item>
+        <item>TV</item>
+        <item>UM</item>
+        <item>VU</item>
+        <item>WF</item>
+    </string-array>
+    <string-array name="custom_region_4" translatable="false">
+        <item>AI</item>
+        <item>AG</item>
+        <item>AW</item>
+        <item>BS</item>
+        <item>BB</item>
+        <item>BZ</item>
+        <item>BM</item>
+        <item>BQ</item>
+        <item>VG</item>
+        <item>CA</item>
+        <item>KY</item>
+        <item>CR</item>
+        <item>CU</item>
+        <item>CW</item>
+        <item>DM</item>
+        <item>DO</item>
+        <item>SV</item>
+        <item>GL</item>
+        <item>GD</item>
+        <item>GP</item>
+        <item>GT</item>
+        <item>HT</item>
+        <item>HN</item>
+        <item>JM</item>
+        <item>MQ</item>
+        <item>MX</item>
+        <item>MS</item>
+        <item>NI</item>
+        <item>PA</item>
+        <item>PR</item>
+        <item>BL</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>MF</item>
+        <item>PM</item>
+        <item>VC</item>
+        <item>SX</item>
+        <item>TT</item>
+        <item>TC</item>
+        <item>UM</item>
+        <item>VI</item>
+        <item>US</item>
+    </string-array>
+    <string-array name="custom_region_5" translatable="false">
+        <item>AR</item>
+        <item>BO</item>
+        <item>BR</item>
+        <item>CL</item>
+        <item>CO</item>
+        <item>EC</item>
+        <item>FK</item>
+        <item>GF</item>
+        <item>GY</item>
+        <item>PY</item>
+        <item>PE</item>
+        <item>SR</item>
+        <item>UY</item>
+        <item>VE</item>
+    </string-array>
+    <string-array name="custom_region_6" translatable="false">
+        <item>ZZ</item>
+    </string-array>
+
+    <!-- DO NOT TRANSLATE -->
+    <string name="launcher_category" translatable="false">android.intent.category.LEANBACK_LAUNCHER</string>
+</resources>
